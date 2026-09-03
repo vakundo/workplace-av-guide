@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Your friendly workplace audio and video guide. Set up a meeting, solve common AV problems, and build your confidence.">
+  <meta name="theme-color" content="#152b27">
+  <title>AV Club — Workplace AV Guide</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to guide</a>
+  <header><a class="brand" href="./"><span class="brand-icon" aria-hidden="true">↗</span> AV CLUB<span class="brand-note">THE WORKPLACE GUIDE</span></a><a class="header-link" href="#rescue">Something not working? <span aria-hidden="true">↗</span></a></header>
+  <main id="main">
+    <section class="intro"><div><span class="eyebrow"><i></i> LESS FIDDLING. MORE MEETING.</span><h1>Good meetings.<br><em>Minus the tech drama.</em></h1><p>Your friendly guide to the screens, sound, and tiny buttons<br class="desktop"> that make workplace meetings work.</p></div><div class="edition"><span>PRESS PLAY ON</span><strong>Your AV<br>confidence.</strong><span>NO TECH EXPERTISE REQUIRED ↙</span></div></section>
+    <nav class="view-nav" aria-label="Guide sections"><button data-view="setup" aria-pressed="true"><span>01</span> Set up a meeting</button><button data-view="rescue" aria-pressed="false"><span>02</span> Fix a problem</button><button data-view="learn" aria-pressed="false"><span>03</span> Test your skills</button></nav>
+    <section id="setup" class="view" aria-labelledby="setup-title">
+      <div class="section-heading"><div><span class="eyebrow">THE FIVE-MINUTE PRE-FLIGHT</span><h2 id="setup-title">Walk in. Plug in. You’re on.</h2></div><span class="pill">✦ A little prep goes a long way</span></div>
+      <div class="setup-grid"><aside class="room-panel"><span class="eyebrow">WHAT’S THE PLAN?</span><h3>Make it your meeting.</h3><label for="meeting-type">Meeting type</label><select id="meeting-type"><option value="hybrid">Hybrid / video call</option><option value="present">Present in the room</option><option value="laptop">Video call from my laptop</option></select><p id="meeting-note"></p><div class="signal-path"><span>YOU</span><span aria-hidden="true">→</span><span>CONNECT</span><span aria-hidden="true">→</span><span>MEET</span></div><div class="tip"><span>THE GOLDEN RULE</span><p>One room. One active microphone and speaker system. Happier ears.</p></div></aside>
+      <div class="checklist-panel"><div class="progress-heading"><h3>Your ready-to-go checklist</h3><span id="progress-label" aria-live="polite"></span></div><progress id="progress" max="5" value="0" aria-label="Meeting setup progress"></progress><div id="checklist"></div><div class="checklist-bottom"><span id="ready-message" role="status"></span><button class="text-button" id="reset">Start again ↺</button></div></div></div>
+    </section>
+    <section id="rescue" class="view" aria-labelledby="rescue-title" hidden><div class="section-heading"><div><span class="eyebrow">YOU’VE GOT THIS</span><h2 id="rescue-title">Let’s get you unstuck.</h2></div><span class="pill">One small check at a time</span></div><div class="rescue-grid"><div class="issue-list" aria-label="Choose your problem"><button data-issue="sound" aria-pressed="true">01 <span>I can’t hear anyone</span> ↗</button><button data-issue="mic" aria-pressed="false">02 <span>They can’t hear me</span> ↗</button><button data-issue="screen" aria-pressed="false">03 <span>The screen is blank</span> ↗</button><button data-issue="echo" aria-pressed="false">04 <span>There’s an echo</span> ↗</button><button data-issue="camera" aria-pressed="false">05 <span>My camera isn’t working</span> ↗</button></div><article id="fix-panel" aria-live="polite"></article></div></section>
+    <section id="learn" class="view" aria-labelledby="learn-title" hidden><div class="section-heading"><div><span class="eyebrow">SMALL QUIZ. BIG CONFIDENCE.</span><h2 id="learn-title">Meet your inner AV pro.</h2></div><span class="pill">3 real meeting moments</span></div><div class="quiz-panel" id="quiz"></div></section>
+    <section class="pocket-note"><span class="note-icon" aria-hidden="true">✳</span><div><h3>A quick note before you connect</h3><p>This is a general guide. Follow your room’s posted instructions and use approved cables and equipment. If you’re still stuck, contact your workplace AV or IT team.</p></div></section>
+  </main><footer><span class="brand">AV CLUB <span class="footer-note">A little know-how. A better workday.</span></span><span>WORKPLACE AV GUIDE · VOL. 01</span></footer>
+  <noscript><p class="no-script">Turn on JavaScript to use the checklist, troubleshooting guide, and quiz.</p></noscript>
+</body></html>
