@@ -6,10 +6,11 @@ A cinematic room picker for CAN's workplace AV guides. Built with plain HTML, CS
 
 - Welcome screen and CAN identity.
 - Room picker for Condo Room, Board Room, R&D Room, and Training Room.
-- A separate starter page for Condo Room.
+- An interactive Condo Room guide for Room PC, HDMI, and ClickShare.
+- Step-by-step instructions, progress, a full-step reference, and no-picture checks.
 - Responsive layout, keyboard-friendly controls, and reduced-motion support.
 
-Room instructions will be added in the next phase. No accounts, analytics, or backend are included. Google Fonts is used for typography, with local font fallbacks.
+Condo instructions are based on the supplied `CONDO ROOM AV SYSTEM.docx`. The Room PC path is the documented option for using the room camera and microphone. The other rooms are coming later. Progress lasts only while the page remains open. No accounts, analytics, or backend are included. Google Fonts is used for typography, with local font fallbacks.
 
 ## Open it on your computer
 
@@ -33,7 +34,7 @@ Official instructions: https://docs.github.com/en/pages/getting-started-with-git
 ## Your first edit, step by step
 
 1. Open `index.html` on GitHub and click the pencil icon.
-2. Find `Good meetings.` and change it to your preferred headline.
+2. Find `Meetings,` and change it to your preferred headline.
 3. Click **Commit changes**, write a short description, and commit to `main`.
 4. Wait for GitHub Pages to publish the update, then refresh your site.
 
@@ -43,13 +44,12 @@ Official instructions: https://docs.github.com/en/pages/getting-started-with-git
 | --- | --- |
 | `index.html` | Page headings and structure |
 | `styles.css` | Colors, fonts, spacing, and mobile layout |
-| `app.js` | Checklists, troubleshooting content, and quiz |
+| `app.js` | Condo connection steps and navigation |
 | `.nojekyll` | Serves the plain static files without Jekyll processing |
 
-To change the green accent, edit `--lime` in `styles.css`. To change a checklist, edit `meetings` in `app.js`. Keep quotation marks and commas intact.
+To change the blue accent, edit `--blue` in `styles.css`. To change a connection guide, edit `commonSteps` and `connections` in `app.js`. Keep quotation marks and commas intact. Increment the asset version in `index.html` when publishing changes so returning visitors receive the current files.
 
 ## Suggested next step
 
-Pick one real room type and identify the approved connection method, meeting platform, and support process. Replace the generic instructions with reviewed, public-safe guidance for that room type.
-
+Add approved room or equipment photos, or provide the next room's connection guide.
 

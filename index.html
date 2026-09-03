@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="CAN workplace room guides. Choose a room and get connected."><meta name="theme-color" content="#050505"><title>CAN — AV Guide</title><link rel="stylesheet" href="styles.css?v=2"><script src="app.js?v=2" defer></script></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="CAN workplace room guides. Choose a room and get connected."><meta name="theme-color" content="#050505"><title>CAN — AV Guide</title><link rel="stylesheet" href="styles.css?v=3"><script src="app.js?v=3" defer></script></head>
 <body><a class="skip" href="#main">Skip to rooms</a>
 <nav class="topbar" aria-label="Main navigation"><a class="logo" href="#home" aria-label="CAN AV Guide home">CAN</a><span>AV Guide</span><a href="#rooms">Choose a room</a></nav>
 <main id="main">
@@ -11,6 +11,27 @@
 <article class="room-card" aria-label="R and D Room, coming soon"><span class="number">03</span><span class="soon">Coming soon</span><div class="room-art steel" aria-hidden="true"><span></span><i></i></div><div class="card-copy"><div><small>Team collaboration</small><h3>R&amp;D Room</h3></div></div></article>
 <article class="room-card" aria-label="Training Room, coming soon"><span class="number">04</span><span class="soon">Coming soon</span><div class="room-art violet" aria-hidden="true"><span></span><i></i></div><div class="card-copy"><div><small>Learning sessions</small><h3>Training Room</h3></div></div></article>
 </div></section>
-<section class="room-page" id="condo" aria-labelledby="condo-title"><button class="back" type="button">← All rooms</button><div class="room-page-copy"><p class="kicker">CAN space · 01</p><h2 id="condo-title">Condo Room</h2><p>Your step-by-step guide is coming next.</p><span class="status"><i></i> Room page ready</span></div><div class="room-page-art" aria-hidden="true"><div><span>CAN</span></div><i></i></div></section>
+<section class="room-page" id="condo" aria-labelledby="condo-title">
+  <button class="back" type="button">← All rooms</button>
+  <header class="condo-heading"><p class="kicker">CAN space · 01</p><h2 id="condo-title">Condo Room</h2><p>One room. Three ways to connect.</p></header>
+  <div id="connection-picker">
+    <h3 class="choose-heading">How are you connecting?</h3>
+    <div class="connection-grid">
+      <button class="connection-card" data-connection="pc"><span class="connection-number">01</span><span class="connection-symbol" aria-hidden="true">◉</span><strong>Room PC</strong><span>Use the room camera<br>and microphone.</span><span class="connection-action">Start guide <b aria-hidden="true">↗</b></span></button>
+      <button class="connection-card" data-connection="hdmi"><span class="connection-number">02</span><span class="connection-symbol" aria-hidden="true">⇄</span><strong>HDMI</strong><span>A simple, reliable<br>wired connection.</span><span class="connection-action">Start guide <b aria-hidden="true">↗</b></span></button>
+      <button class="connection-card" data-connection="clickshare"><span class="connection-number">03</span><span class="connection-symbol" aria-hidden="true">◎</span><strong>ClickShare</strong><span>Quick wireless<br>screen sharing.</span><span class="connection-action">Start guide <b aria-hidden="true">↗</b></span></button>
+    </div>
+    <p class="setup-reminder"><span aria-hidden="true">↳</span> Every guide starts with the TV on and the input set to <strong>CONDO AV.</strong></p>
+  </div>
+  <div id="connection-guide" hidden>
+    <div class="guide-toolbar"><button type="button" id="change-connection">← Change connection</button><span id="connection-label"></span></div>
+    <div class="guide-surface">
+      <aside class="guide-rail"><p class="rail-label">YOUR CONNECTION</p><h3 id="guide-mode"></h3><div class="switch-reference"><span>AV SWITCH REMOTE</span><strong id="switch-number"></strong><small id="switch-label"></small></div><p class="rail-note">TV input <strong>CONDO AV</strong></p></aside>
+      <div class="step-content"><div class="step-top"><span id="step-count"></span><span id="step-percent"></span></div><progress id="guide-progress" max="6" value="0" aria-label="Completed guide steps"></progress><div id="step-body" aria-live="polite" aria-atomic="true"></div><div id="step-dots" aria-label="Guide steps"></div><div class="step-controls"><button type="button" id="previous-step">Back</button><button type="button" class="primary" id="next-step">Done. Next →</button></div></div>
+    </div>
+    <details class="quick-reference"><summary>See all steps <span aria-hidden="true">+</span></summary><ol id="all-steps"></ol></details>
+  </div>
+  <details class="picture-help"><summary><span><b aria-hidden="true">?</b> No picture?</span><span aria-hidden="true">+</span></summary><div><p>Confirm the TV is on and set to <strong>CONDO AV.</strong></p><p>Then check the AV switch remote:</p><div class="input-map"><span><b>1</b> PC</span><span><b>2</b> HDMI</span><span><b>3</b> ClickShare</span></div></div></details>
+  <p class="source-note">Condo Room AV System · Quick Connection Guide</p>
+</section>
 </main><footer><b>CAN</b><span>AV Guide</span><small>Simple rooms. Better meetings.</small></footer></body></html>
-
