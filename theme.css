@@ -1,0 +1,88 @@
+/* Clinical clarity, with the same CAN layout and interaction design. */
+:root{--black:#f7fbfc;--white:#173c4b;--muted:#617d87;--blue:#087b9b;--clinical-line:#dce9ed;--clinical-soft:#eef7f9}
+body{background:#f7fbfc;color:#173c4b}
+.topbar{background:rgba(255,255,255,.8);border-bottom:1px solid #dae9ed}
+.topbar .logo{color:#126e81}
+.topbar span{color:#607b85}
+.topbar a:last-child{color:#087b9b}
+.hero{background:linear-gradient(140deg,#fff 15%,#f4fafc 62%,#eaf6f8)}
+.hero h1{color:#173c4b}
+.hero h1 span{color:#3e8e9a}
+.lead{color:#607c87}
+.orb{background:radial-gradient(circle,#97d8e080,transparent 67%)}
+.primary{background:#087b9b;color:#fff;box-shadow:0 5px 18px #087b9b16}
+.primary:hover{background:#066983}
+.display{border-color:#8caeb8;background:radial-gradient(ellipse at 50% 0,#274f62,#102b3b 78%);box-shadow:0 40px 90px #244d6a26,0 0 0 6px #d3e0e4}
+.display span{color:#f4fbff}
+.display small{color:#a1c6d1}
+.soundbar{background:linear-gradient(#d5e1e5,#a6bdc6);box-shadow:0 15px 30px #244d6a20}
+.soundbar i{background:#087f87;box-shadow:0 0 8px #087f8744}
+.surface{background:linear-gradient(90deg,transparent,#a4c8d1,transparent)}
+.scroll-cue{color:#68818b}
+.rooms{background:#eef6f8;color:#173c4b}
+.section-intro>p:last-child{color:#617d87}
+.room-card{background:#fff;box-shadow:0 8px 30px #31586c08;border:1px solid #e0ecef}
+.room-card.live:hover{box-shadow:0 25px 60px #31586c18}
+.number{color:#66828c}
+.soon{border-color:#d5e6eb;background:#f5fafb;color:#5f7c87}
+.card-copy small{color:#607c87}
+.arrow{background:#087b9b;color:#fff}
+.room-art span{border-color:#cadbe2;background:radial-gradient(circle at 50% 20%,#638da3,#193e52 70%);box-shadow:0 22px 40px #244d6a22}
+.room-art i{background:linear-gradient(#b9cdd5,#8da9b5);box-shadow:0 10px 22px #244d6a20}
+.warm span{background:radial-gradient(circle at 20% 30%,#79a1a8,#214653 70%)}
+.steel span{background:radial-gradient(circle at 70% 20%,#739dad,#1b4255 70%)}
+.violet span{background:radial-gradient(circle at 50% 0%,#7195ba,#203b56 70%)}
+footer{background:#fff;border-top-color:#dce9ed;color:#617d87}
+footer b{color:#126e81}
+.room-page{background:radial-gradient(ellipse at 80% 0,#d7eef480,transparent 55%),#f7fbfc}
+.room-page .back{color:#587782}
+.condo-heading>p:last-child{color:#617d87}
+.connection-card{background:linear-gradient(145deg,#fff,#f6fbfc);color:#173c4b;border-color:#dce9ed;box-shadow:0 8px 25px #31586c06}
+.connection-card:hover{border-color:#72b7c6;box-shadow:0 20px 45px #31586c15}
+.connection-number{color:#708993}
+.connection-symbol{background:#e7f5f7;color:#087b9b}
+.connection-card>span:not([class]){color:#617d87}
+.connection-action{color:#087b9b}
+.setup-reminder{color:#617d87}
+.setup-reminder>span{color:#087b9b}
+.setup-reminder strong{color:#214958}
+.guide-toolbar button{color:#087b9b}
+.guide-toolbar>span{color:#617d87}
+.guide-surface{background:#fff;border-color:#d9e8ed;box-shadow:0 12px 45px #31586c08}
+.guide-rail{background:linear-gradient(155deg,#e7f4f7,#f2f9fa);border-color:#d9e8ed}
+.rail-label{color:#5d7d89}
+.switch-reference{background:#ffffffaa;border-color:#d4e7ed}
+.switch-reference>span{color:#5a7d8a}
+.switch-reference>strong{color:#087b9b}
+.switch-reference small{color:#537784}
+.rail-note{color:#5f7f8a}
+.rail-note strong{color:#214958}
+.step-top{color:#5c7c88}
+#guide-progress{background:#e7f0f3;accent-color:#087b9b}
+#guide-progress::-webkit-progress-bar{background:#e7f0f3}
+#guide-progress::-webkit-progress-value{background:#087b9b}
+#guide-progress::-moz-progress-bar{background:#087b9b}
+#step-body>p{color:#617d87}
+.instruction-display{background:radial-gradient(ellipse at 50% 0,#d8eff5,#f1f9fb 85%);border-color:#d5e9ee}
+.instruction-display span{color:#537c8b}
+.instruction-display strong{color:#125c75}
+.instruction-display.complete{background:linear-gradient(145deg,#e5f6f1,#f1fbf7);border-color:#c9e9dd}
+.instruction-display.complete span{color:#467c6b}
+.instruction-display.complete strong{color:#197a62}
+#step-dots button{border-color:#d2e4ea;color:#607e89}
+#step-dots button.current{background:#087b9b;border-color:#087b9b;color:#fff}
+#step-dots button.done{background:#eaf6f8;color:#08718c;border-color:#acd4df}
+#previous-step{color:#526f7a}
+#previous-step:disabled{opacity:.4}
+.picture-help,.quick-reference{background:#fff;border-color:#dce9ed}
+.picture-help summary b{border-color:#a8c4ce;color:#507581}
+.picture-help>div{color:#617d87}
+.picture-help strong{color:#214958}
+.input-map>span{background:#eef7f9;color:#315966}
+.input-map b{color:#087b9b}
+#all-steps{color:#6b8993}
+#all-steps strong{color:#214958}
+#all-steps span{color:#617d87}
+.source-note{color:#69858f}
+button:focus-visible,summary:focus-visible,a:focus-visible,.primary:focus-visible,.room-card:focus-visible,.connection-card:focus-visible,.back:focus-visible{outline-color:#087b9b}
+@media(max-width:620px){.switch-reference{background:none}.guide-rail{border-bottom-color:#d9e8ed}}
