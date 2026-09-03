@@ -1,16 +1,15 @@
-# AV Club — Workplace AV Guide
+# CAN — Workplace AV Guide
 
-A friendly, interactive guide to workplace audio and video. Built with plain HTML, CSS, and JavaScript so a beginner can edit it without installing a framework.
+A cinematic room picker for CAN's workplace AV guides. Built with plain HTML, CSS, and JavaScript so a beginner can edit it without installing a framework.
 
-## What is included?
+## Current phase
 
-- Three meeting setup checklists: hybrid, room presentation, and laptop call.
-- Live checklist progress, with a reset button.
-- Five common AV problems with practical checks.
-- A three-question quiz with explanations and a final score.
+- Welcome screen and CAN identity.
+- Room picker for Condo Room, Board Room, R&D Room, and Training Room.
+- A separate starter page for Condo Room.
 - Responsive layout, keyboard-friendly controls, and reduced-motion support.
 
-This starter contains general guidance. Adapt it to your actual equipment and have your AV or IT team review it before sharing it as official workplace instructions. Checklist and quiz progress lasts only while the page stays open. No accounts, analytics, or backend are included. Google Fonts is used for typography, with local font fallbacks.
+Room instructions will be added in the next phase. No accounts, analytics, or backend are included. Google Fonts is used for typography, with local font fallbacks.
 
 ## Open it on your computer
 
@@ -52,4 +51,5 @@ To change the green accent, edit `--lime` in `styles.css`. To change a checklist
 ## Suggested next step
 
 Pick one real room type and identify the approved connection method, meeting platform, and support process. Replace the generic instructions with reviewed, public-safe guidance for that room type.
+
 
